@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+  "name": "ZachBot",
+  "version": "0.1.0",
+
+  "description": "this is a bot for buying things",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "ZachBot"
+  },
+  "background": {
+    "scripts": ["bot.js"]
+  },
+
+  "author": "Zach Strenfel",
+  "permissions": [
+    "tabs",
+    "alarms",
+    "debugger",
+    "http://*/",
+    "https://*/"
+  ]
+}
